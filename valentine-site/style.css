@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(#ffd6e8, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #ff4d88;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #ff4d88;
+  color: white;
+}
+
+#noBtn {
+  background: #ddd;
+}
